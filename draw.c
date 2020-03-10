@@ -25,7 +25,7 @@ void add_circle( struct matrix *edges,
   double y = cy;
 
   while (t < 1) {
-    add_edge(edges, x, y, cz, cx + cos(2*M_PI*t), cy + sin(2*M_PI*t), cz);
+    add_edge(edges, x, y, cz, cx + r * cos(2*M_PI*t), cy + r * sin(2*M_PI*t), cz);
     x = cx + r * cos(2*M_PI*t);
     y = cy + r * sin(2*M_PI*t);
     t += step;
