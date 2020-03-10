@@ -46,7 +46,7 @@ struct matrix * make_bezier() {
   to generae the coefiecients for a hermite curve
   ====================*/
 struct matrix * make_hermite() {
-  matrix* hermite = new_matrix(4, 4);
+  struct matrix* hermite = new_matrix(4, 4);
 
   hermite->m[0][0] = 2;
   hermite->m[0][1] = -2;
@@ -87,10 +87,10 @@ struct matrix * generate_curve_coefs( double p0, double p1,
   struct matrix* coef_gen;
   struct matrix* vector = new_matrix(4, 1);
 
-  vector->m[0] = p0;
-  vector->m[1] = p1;
-  vector->m[2] = p2;
-  vector->m[3] = p3;
+  vector->m[0][0] = p0;
+  vector->m[1][0] = p1;
+  vector->m[2][0] = p2;
+  vector->m[3][0] = p3;
 
   switch (type) {
     case BEZIER: coef_gen = make_bezier();
@@ -98,6 +98,7 @@ struct matrix * generate_curve_coefs( double p0, double p1,
     case HERMITE: coef_gen = make_hermite();
       break;
     default:
+      coef_gen = NULL;
       printf("Invalid matrix type!\n");
   }
 
