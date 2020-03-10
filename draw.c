@@ -29,7 +29,7 @@ void add_circle( struct matrix *edges,
     y = cy + r * sin(2*M_PI*t);
     t += step;
   }
-  add_edge(edges, x, y, cx + r, cy);
+  add_edge(edges, x, y, 0, cx + r, cy, 0);
 }
 
 /*======== void add_curve() ==========
