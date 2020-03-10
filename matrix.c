@@ -93,16 +93,15 @@ struct matrix * generate_curve_coefs( double p0, double p1,
   vector->m[3] = p3;
 
   switch (type) {
-    case BEZIER:
-      coef_gen = make_bezier();
-      matrix_mult(coef_gen, vector);
+    case BEZIER: coef_gen = make_bezier();
       break;
-    case HERMITE:
-
+    case HERMITE: coef_gen = make_hermite();
       break;
     default:
       printf("Invalid matrix type!\n");
   }
+
+  matrix_mult(coef_gen, vector);
   return vector;
 }
 
