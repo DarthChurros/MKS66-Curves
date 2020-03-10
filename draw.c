@@ -55,6 +55,33 @@ void add_curve( struct matrix *edges,
                 double x2, double y2,
                 double x3, double y3,
                 double step, int type ) {
+  double t = step;
+  double x = x0;
+  double y = y0;
+
+  struct matrix* x_coefs = generate_curve_coefs(x0, x1, x2, x3, type);
+  struct matrix* y_coefs = generate_curve_coefs(y0, y1, y2, y3, type);
+
+  while (t < 1) {
+    int i;
+    double x_old = x;
+    double y_old = y;
+    x = x_coefs->m[0][0];
+    y = y_coefs->m[0][0];
+    for (i = 1; i < 4; i++) {
+      x = t * x + x_coefs->m[i][0];
+      y = t * y + y_coefs->m[i][0];
+    } //d + t(c + t(b + t(a)))
+    add_edge(edges, x_old, x, 0, y_old, y, 0);
+  }
+
+  switch (type) {
+    case BEZIER: add_edge(edges, x, x3, 0, y, y3, 0);
+      break;
+    case HERMITE: add_edge(edges, x, x1, 0, y, y1, 0);
+      break;
+    default: printf("Invalid type!\n");
+  }
 }
 
 
