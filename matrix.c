@@ -91,6 +91,7 @@ struct matrix * generate_curve_coefs( double p0, double p1,
   vector->m[1][0] = p1;
   vector->m[2][0] = p2;
   vector->m[3][0] = p3;
+  vector->lastcol = 1;
 
   switch (type) {
     case BEZIER: coef_gen = make_bezier();
