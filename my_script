@@ -1,112 +1,119 @@
 ident
 rotate
+y 90
+circle
+0 0 0 205
+apply
+ident
+rotate
 x 10
 circle
-0 202.5 0 2.5
+0 205 0 5
 apply
 circle
-0 202.5 0 2.5
+0 205 0 5
 apply
 circle
-0 202.5 0 2.5
+0 205 0 5
 apply
 circle
-0 202.5 0 2.5
+0 205 0 5
 apply
 circle
-0 202.5 0 2.5
+0 205 0 5
 apply
 circle
-0 202.5 0 2.5
+0 205 0 5
 apply
 circle
-0 202.5 0 2.5
+0 205 0 5
 apply
 circle
-0 202.5 0 2.5
+0 205 0 5
 apply
 circle
-0 202.5 0 2.5
+0 205 0 5
 apply
 circle
-0 202.5 0 2.5
+0 205 0 5
 apply
 circle
-0 202.5 0 2.5
+0 205 0 5
 apply
 circle
-0 202.5 0 2.5
+0 205 0 5
 apply
 circle
-0 202.5 0 2.5
+0 205 0 5
 apply
 circle
-0 202.5 0 2.5
+0 205 0 5
 apply
 circle
-0 202.5 0 2.5
+0 205 0 5
 apply
 circle
-0 202.5 0 2.5
+0 205 0 5
 apply
 circle
-0 202.5 0 2.5
+0 205 0 5
 apply
 circle
-0 202.5 0 2.5
-applycircle
-0 202.5 0 2.5
+0 205 0 5
 apply
 circle
-0 202.5 0 2.5
+0 205 0 5
 apply
 circle
-0 202.5 0 2.5
+0 205 0 5
 apply
 circle
-0 202.5 0 2.5
+0 205 0 5
 apply
 circle
-0 202.5 0 2.5
+0 205 0 5
 apply
 circle
-0 202.5 0 2.5
+0 205 0 5
 apply
 circle
-0 202.5 0 2.5
+0 205 0 5
 apply
 circle
-0 202.5 0 2.5
+0 205 0 5
 apply
 circle
-0 202.5 0 2.5
+0 205 0 5
 apply
 circle
-0 202.5 0 2.5
+0 205 0 5
 apply
 circle
-0 202.5 0 2.5
+0 205 0 5
 apply
 circle
-0 202.5 0 2.5
+0 205 0 5
 apply
 circle
-0 202.5 0 2.5
+0 205 0 5
 apply
 circle
-0 202.5 0 2.5
+0 205 0 5
 apply
 circle
-0 202.5 0 2.5
+0 205 0 5
 apply
 circle
-0 202.5 0 2.5
+0 205 0 5
 apply
 circle
-0 202.5 0 2.5
+0 205 0 5
 apply
 circle
-0 202.5 0 2.5
+0 205 0 5
+apply
+circle
+0 205 0 5
 apply
 ident
 rotate
