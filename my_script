@@ -1,0 +1,215 @@
+ident
+rotate
+x 10
+circle
+0 202.5 0 2.5
+apply
+circle
+0 202.5 0 2.5
+apply
+circle
+0 202.5 0 2.5
+apply
+circle
+0 202.5 0 2.5
+apply
+circle
+0 202.5 0 2.5
+apply
+circle
+0 202.5 0 2.5
+apply
+circle
+0 202.5 0 2.5
+apply
+circle
+0 202.5 0 2.5
+apply
+circle
+0 202.5 0 2.5
+apply
+circle
+0 202.5 0 2.5
+apply
+circle
+0 202.5 0 2.5
+apply
+circle
+0 202.5 0 2.5
+apply
+circle
+0 202.5 0 2.5
+apply
+circle
+0 202.5 0 2.5
+apply
+circle
+0 202.5 0 2.5
+apply
+circle
+0 202.5 0 2.5
+apply
+circle
+0 202.5 0 2.5
+apply
+circle
+0 202.5 0 2.5
+applycircle
+0 202.5 0 2.5
+apply
+circle
+0 202.5 0 2.5
+apply
+circle
+0 202.5 0 2.5
+apply
+circle
+0 202.5 0 2.5
+apply
+circle
+0 202.5 0 2.5
+apply
+circle
+0 202.5 0 2.5
+apply
+circle
+0 202.5 0 2.5
+apply
+circle
+0 202.5 0 2.5
+apply
+circle
+0 202.5 0 2.5
+apply
+circle
+0 202.5 0 2.5
+apply
+circle
+0 202.5 0 2.5
+apply
+circle
+0 202.5 0 2.5
+apply
+circle
+0 202.5 0 2.5
+apply
+circle
+0 202.5 0 2.5
+apply
+circle
+0 202.5 0 2.5
+apply
+circle
+0 202.5 0 2.5
+apply
+circle
+0 202.5 0 2.5
+apply
+circle
+0 202.5 0 2.5
+apply
+ident
+rotate
+y 60
+move
+250 250 0
+apply
+ident
+move
+-250 -250 0
+rotate
+y 10
+move
+250 250 0
+bezier
+250 50 500 100 0 400 250 450
+hermite
+250 50 250 450 -500 0 500 0
+apply
+bezier
+250 50 500 100 0 400 250 450
+hermite
+250 50 250 450 -500 0 500 0
+apply
+bezier
+250 50 500 100 0 400 250 450
+hermite
+250 50 250 450 -500 0 500 0
+apply
+bezier
+250 50 500 100 0 400 250 450
+hermite
+250 50 250 450 -500 0 500 0
+apply
+bezier
+250 50 500 100 0 400 250 450
+hermite
+250 50 250 450 -500 0 500 0
+apply
+bezier
+250 50 500 100 0 400 250 450
+hermite
+250 50 250 450 -500 0 500 0
+apply
+bezier
+250 50 500 100 0 400 250 450
+hermite
+250 50 250 450 -500 0 500 0
+apply
+bezier
+250 50 500 100 0 400 250 450
+hermite
+250 50 250 450 -500 0 500 0
+apply
+bezier
+250 50 500 100 0 400 250 450
+hermite
+250 50 250 450 -500 0 500 0
+apply
+bezier
+250 50 500 100 0 400 250 450
+hermite
+250 50 250 450 -500 0 500 0
+apply
+bezier
+250 50 500 100 0 400 250 450
+hermite
+250 50 250 450 -500 0 500 0
+apply
+bezier
+250 50 500 100 0 400 250 450
+hermite
+250 50 250 450 -500 0 500 0
+apply
+bezier
+250 50 500 100 0 400 250 450
+hermite
+250 50 250 450 -500 0 500 0
+apply
+bezier
+250 50 500 100 0 400 250 450
+hermite
+250 50 250 450 -500 0 500 0
+apply
+bezier
+250 50 500 100 0 400 250 450
+hermite
+250 50 250 450 -500 0 500 0
+apply
+bezier
+250 50 500 100 0 400 250 450
+hermite
+250 50 250 450 -500 0 500 0
+apply
+bezier
+250 50 500 100 0 400 250 450
+hermite
+250 50 250 450 -500 0 500 0
+apply
+bezier
+250 50 500 100 0 400 250 450
+hermite
+250 50 250 450 -500 0 500 0
+ident
+save
+image.ppm

@@ -6,6 +6,9 @@ CC= gcc
 run: all
 	$(VG) ./main script
 
+demo: all
+	$(VG) ./main my_script
+
 all: $(OBJECTS)
 	$(CC) $(DATA) -o main $(OBJECTS) $(LDFLAGS)
 
